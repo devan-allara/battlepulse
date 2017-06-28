@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFEB73CE1F041AB400CF4C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB73CD1F041AB400CF4C2E /* AppDelegate.swift */; };
+		BFEB73D01F041AB400CF4C2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEB73CF1F041AB400CF4C2E /* ViewController.swift */; };
+		BFEB73D31F041AB400CF4C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB73D11F041AB400CF4C2E /* Main.storyboard */; };
+		BFEB73D61F041AB400CF4C2E /* BattlePulse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFEB73D41F041AB400CF4C2E /* BattlePulse.xcdatamodeld */; };
+		BFEB73D81F041AB400CF4C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEB73D71F041AB400CF4C2E /* Assets.xcassets */; };
+		BFEB73DB1F041AB400CF4C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEB73D91F041AB400CF4C2E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFEB73CA1F041AB400CF4C2E /* BattlePulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattlePulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEB73CD1F041AB400CF4C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFEB73CF1F041AB400CF4C2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFEB73D21F041AB400CF4C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFEB73D51F041AB400CF4C2E /* BattlePulse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BattlePulse.xcdatamodel; sourceTree = "<group>"; };
+		BFEB73D71F041AB400CF4C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFEB73DA1F041AB400CF4C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFEB73DC1F041AB400CF4C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFEB73C71F041AB400CF4C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFEB73C11F041AB400CF4C2E = {
+			isa = PBXGroup;
+			children = (
+				BFEB73CC1F041AB400CF4C2E /* BattlePulse */,
+				BFEB73CB1F041AB400CF4C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEB73CB1F041AB400CF4C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB73CA1F041AB400CF4C2E /* BattlePulse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEB73CC1F041AB400CF4C2E /* BattlePulse */ = {
+			isa = PBXGroup;
+			children = (
+				BFEB73CD1F041AB400CF4C2E /* AppDelegate.swift */,
+				BFEB73CF1F041AB400CF4C2E /* ViewController.swift */,
+				BFEB73D11F041AB400CF4C2E /* Main.storyboard */,
+				BFEB73D71F041AB400CF4C2E /* Assets.xcassets */,
+				BFEB73D91F041AB400CF4C2E /* LaunchScreen.storyboard */,
+				BFEB73DC1F041AB400CF4C2E /* Info.plist */,
+				BFEB73D41F041AB400CF4C2E /* BattlePulse.xcdatamodeld */,
+			);
+			path = BattlePulse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFEB73C91F041AB400CF4C2E /* BattlePulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEB73DF1F041AB400CF4C2E /* Build configuration list for PBXNativeTarget "BattlePulse" */;
+			buildPhases = (
+				BFEB73C61F041AB400CF4C2E /* Sources */,
+				BFEB73C71F041AB400CF4C2E /* Frameworks */,
+				BFEB73C81F041AB400CF4C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattlePulse;
+			productName = BattlePulse;
+			productReference = BFEB73CA1F041AB400CF4C2E /* BattlePulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEB73C21F041AB400CF4C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Devan Allara";
+				TargetAttributes = {
+					BFEB73C91F041AB400CF4C2E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W9QV58MHM6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BFEB73C51F041AB400CF4C2E /* Build configuration list for PBXProject "BattlePulse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFEB73C11F041AB400CF4C2E;
+			productRefGroup = BFEB73CB1F041AB400CF4C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEB73C91F041AB400CF4C2E /* BattlePulse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFEB73C81F041AB400CF4C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEB73DB1F041AB400CF4C2E /* LaunchScreen.storyboard in Resources */,
+				BFEB73D81F041AB400CF4C2E /* Assets.xcassets in Resources */,
+				BFEB73D31F041AB400CF4C2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEB73C61F041AB400CF4C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEB73D01F041AB400CF4C2E /* ViewController.swift in Sources */,
+				BFEB73CE1F041AB400CF4C2E /* AppDelegate.swift in Sources */,
+				BFEB73D61F041AB400CF4C2E /* BattlePulse.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFEB73D11F041AB400CF4C2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEB73D21F041AB400CF4C2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFEB73D91F041AB400CF4C2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEB73DA1F041AB400CF4C2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFEB73DD1F041AB400CF4C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFEB73DE1F041AB400CF4C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFEB73E01F041AB400CF4C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9QV58MHM6;
+				INFOPLIST_FILE = BattlePulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Devan.BattlePulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFEB73E11F041AB400CF4C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9QV58MHM6;
+				INFOPLIST_FILE = BattlePulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Devan.BattlePulse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFEB73C51F041AB400CF4C2E /* Build configuration list for PBXProject "BattlePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEB73DD1F041AB400CF4C2E /* Debug */,
+				BFEB73DE1F041AB400CF4C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEB73DF1F041AB400CF4C2E /* Build configuration list for PBXNativeTarget "BattlePulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEB73E01F041AB400CF4C2E /* Debug */,
+				BFEB73E11F041AB400CF4C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFEB73D41F041AB400CF4C2E /* BattlePulse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFEB73D51F041AB400CF4C2E /* BattlePulse.xcdatamodel */,
+			);
+			currentVersion = BFEB73D51F041AB400CF4C2E /* BattlePulse.xcdatamodel */;
+			path = BattlePulse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFEB73C21F041AB400CF4C2E /* Project object */;
+}
